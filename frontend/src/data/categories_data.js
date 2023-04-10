@@ -1,7 +1,245 @@
 const categories = [
   {
-    name: "Dynamic Programming",
+    name: "Arrays",
     image: "/images/3.jpg",
+    subcategories: [
+      {
+        name: "Top interview questions",
+        problems: [
+          {
+            name: "Remove Duplicates from Sorted Array",
+            status: false,
+            link: "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Contains Duplicate",
+            status: false,
+            link: "https://leetcode.com/problems/contains-duplicate/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Single Number",
+            status: false,
+            link: "https://leetcode.com/problems/single-number/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Intersection of Two Arrays II",
+            status: false,
+            link: "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Plus One",
+            status: false,
+            link: "https://leetcode.com/problems/plus-one/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Two Sum",
+            status: false,
+            link: "https://leetcode.com/problems/two-sum/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Move Zeroes",
+            status: false,
+            link: "https://leetcode.com/problems/move-zeroes/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Best Time to Buy and Sell Stock II",
+            status: false,
+            link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+            difficulty: "Medium",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Rotate Array",
+            status: false,
+            link: "https://leetcode.com/problems/rotate-array/",
+            difficulty: "Medium",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Valid Sudoku",
+            status: false,
+            link: "https://leetcode.com/problems/valid-sudoku/",
+            difficulty: "Medium",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Rotate Image",
+            status: false,
+            link: "https://leetcode.com/problems/rotate-image/",
+            difficulty: "Medium",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Linked List",
+    image: "/images/5.png",
+    subcategories: [
+      {
+        name: "Top interview questions",
+        problems: [
+          {
+            name: "Reverse Linked List",
+            status: false,
+            link: "https://leetcode.com/problems/reverse-linked-list/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Merge Two Sorted Lists",
+            status: false,
+            link: "https://leetcode.com/problems/merge-two-sorted-lists/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Palindrome Linked List",
+            status: false,
+            link: "https://leetcode.com/problems/palindrome-linked-list/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Linked List Cycle",
+            status: false,
+            link: "https://leetcode.com/problems/linked-list-cycle/",
+            difficulty: "Easy",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Linked List Cycle II",
+            status: false,
+            link: "https://leetcode.com/problems/linked-list-cycle-ii/",
+            difficulty: "Medium",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Delete Node in a Linked List",
+            status: false,
+            link: "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+            difficulty: "Medium",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Remove Nth Node From End of List",
+            status: false,
+            link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+            difficulty: "Medium",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Dynamic Programming",
+    image: "/images/4.png",
     subcategories: [
       {
         name: "Easy",
