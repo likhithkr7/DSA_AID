@@ -92,7 +92,7 @@ const CategoriesScreen = () => {
         <>
           <Row>
             {categories.map((category) => (
-              <Col key={category._id} sm={12} md={6} lg={6} xl={4}>
+              <Col key={category._id} sm={12} md={6} lg={4} xl={3}>
                 <Category category={category} />
               </Col>
             ))}
