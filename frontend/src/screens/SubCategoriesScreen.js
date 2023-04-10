@@ -32,6 +32,7 @@ const SubCategoriesScreen = () => {
 
   useEffect(() => {
     dispatch(listCategoryDetails(userInfo._id, id, "fetch"));
+    Alert_simple();
   }, [dispatch, userInfo._id, id, success]);
 
   const addSubcategoryHandler = (e) => {
@@ -62,6 +63,10 @@ const SubCategoriesScreen = () => {
       title: "Oops...",
       text: msg,
     });
+  };
+
+  const Alert_simple = () => {
+    Swal.fire("Loading..");
   };
 
   return (

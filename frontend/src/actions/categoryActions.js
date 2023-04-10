@@ -57,7 +57,6 @@ export const listCategories = (user) => async (dispatch) => {
 };
 
 export const listCategoryDetails = (user, id, msg) => async (dispatch) => {
-  console.log(msg);
   if (msg === "fetch") {
     try {
       dispatch({ type: CATEGORY_DETAILS_REQUEST });
