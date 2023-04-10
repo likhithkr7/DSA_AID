@@ -60,9 +60,7 @@ const CategoriesScreen = () => {
       Alert_warn("Section Name is too long");
     } else {
       let indx = categories.length % 7;
-      dispatch(
-        addNewCategory(userInfo._id, sectionName, [], 0, 0, IMAGES[indx])
-      );
+      dispatch(addNewCategory(userInfo._id, sectionName, [], IMAGES[indx]));
       handleClose();
     }
   };
