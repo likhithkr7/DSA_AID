@@ -35,16 +35,12 @@ const getCategoryById = asyncHandler(async (req, res) => {
 const addCategory = asyncHandler(async (req, res) => {
   const name = req.body.name;
   const subcategories = req.body.subcategories;
-  const total = req.body.total;
-  const solved = req.body.solved;
   const image = req.body.image;
   const result = await Category.create({
     user: req.params.user,
     name: name,
     image: image,
     subcategories: subcategories,
-    total: total,
-    solved: solved,
   });
   if (result) {
     res.status(201).json({

@@ -35,8 +35,6 @@ const RegisterScreen = () => {
             userInfo._id,
             element.name,
             element.subcategories,
-            element.total,
-            element.solved,
             element.image
           )
         );

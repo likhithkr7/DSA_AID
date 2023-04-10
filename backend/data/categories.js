@@ -50,8 +50,6 @@ const categories = [
         ],
       },
     ],
-    total: 3,
-    solved: 0,
   },
   {
     name: "BLIND 75",
@@ -75,8 +73,6 @@ const categories = [
         ],
       },
     ],
-    total: 1,
-    solved: 0,
   },
 ];
 

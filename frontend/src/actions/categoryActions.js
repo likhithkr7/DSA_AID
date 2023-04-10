@@ -75,7 +75,7 @@ export const listCategoryDetails = (user, id) => async (dispatch) => {
 };
 
 export const addNewCategory =
-  (user, name, subcategories, total, solved, image) => async (dispatch) => {
+  (user, name, subcategories, image) => async (dispatch) => {
     try {
       dispatch({
         type: CATEGORY_ADD_REQUEST,
@@ -89,7 +89,7 @@ export const addNewCategory =
 
       const { data } = await axios.post(
         `/api/categories/${user}`,
-        { name, subcategories, total, solved, image },
+        { name, subcategories, image },
         config
       );
 
