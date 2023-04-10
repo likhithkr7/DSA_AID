@@ -4,7 +4,7 @@ const categories = [
     image: "/images/3.jpg",
     subcategories: [
       {
-        name: "Top interview questions",
+        name: "Easy",
         problems: [
           {
             name: "Remove Duplicates from Sorted Array",
@@ -90,6 +90,11 @@ const categories = [
               spacecomplexity: "",
             },
           },
+        ],
+      },
+      {
+        name: "Medium",
+        problems: [
           {
             name: "Best Time to Buy and Sell Stock II",
             status: false,
@@ -131,6 +136,59 @@ const categories = [
             status: false,
             link: "https://leetcode.com/problems/rotate-image/",
             difficulty: "Medium",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+        ],
+      },
+      {
+        name: "Hard",
+        problems: [
+          {
+            name: "Unique Paths III",
+            status: false,
+            link: "https://leetcode.com/problems/unique-paths-iii/",
+            difficulty: "Hard",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Reducing Dishes",
+            status: false,
+            link: "https://leetcode.com/problems/reducing-dishes/",
+            difficulty: "Hard",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "Number of Submatrices That Sum to Target",
+            status: false,
+            link: "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/",
+            difficulty: "Hard",
+            notes: {
+              description: "",
+              approach: "",
+              timecomplexity: "",
+              spacecomplexity: "",
+            },
+          },
+          {
+            name: "N-Queens",
+            status: false,
+            link: "https://leetcode.com/problems/n-queens/",
+            difficulty: "Hard",
             notes: {
               description: "",
               approach: "",
@@ -242,7 +300,7 @@ const categories = [
     image: "/images/4.png",
     subcategories: [
       {
-        name: "Easy",
+        name: "DP-Easy",
         problems: [
           {
             name: "Best time to buy and sell stock",
@@ -283,7 +341,7 @@ const categories = [
         ],
       },
       {
-        name: "Medium",
+        name: "DP-Medium",
         problems: [
           {
             name: "Unique Paths II",
@@ -492,7 +550,7 @@ const categories = [
         ],
       },
       {
-        name: "Hard",
+        name: "DP-Hard",
         problems: [
           {
             name: "Longest Valid Parantheses",

@@ -30,6 +30,9 @@ import {
   EDIT_NOTE_REQUEST,
   EDIT_NOTE_SUCCESS,
   EDIT_NOTE_FAIL,
+  CLEAR_CATEGORY_DETAILS_REQUEST,
+  CLEAR_CATEGORY_DETAILS_SUCCESS,
+  CLEAR_CATEGORY_DETAILS_FAIL,
 } from "../constants/categoryConstants";
 
 export const listCategories = (user) => async (dispatch) => {
@@ -53,24 +56,46 @@ export const listCategories = (user) => async (dispatch) => {
   }
 };
 
-export const listCategoryDetails = (user, id) => async (dispatch) => {
-  try {
-    dispatch({ type: CATEGORY_DETAILS_REQUEST });
+export const listCategoryDetails = (user, id, msg) => async (dispatch) => {
+  console.log(msg);
+  if (msg === "fetch") {
+    try {
+      dispatch({ type: CATEGORY_DETAILS_REQUEST });
 
-    const { data } = await axios.get(`/api/categories/${user}/${id}`);
+      const { data } = await axios.get(`/api/categories/${user}/${id}`);
 
-    dispatch({
-      type: CATEGORY_DETAILS_SUCCESS,
-      payload: data,
-    });
-  } catch (error) {
-    dispatch({
-      type: CATEGORY_DETAILS_FAIL,
-      payload:
-        error.response && error.response.data.message
-          ? error.response.data.message
-          : error.message,
-    });
+      dispatch({
+        type: CATEGORY_DETAILS_SUCCESS,
+        payload: data,
+      });
+    } catch (error) {
+      dispatch({
+        type: CATEGORY_DETAILS_FAIL,
+        payload:
+          error.response && error.response.data.message
+            ? error.response.data.message
+            : error.message,
+      });
+    }
+  } else if (msg === "clear") {
+    try {
+      dispatch({ type: CLEAR_CATEGORY_DETAILS_REQUEST });
+
+      const { data } = {};
+
+      dispatch({
+        type: CLEAR_CATEGORY_DETAILS_SUCCESS,
+        payload: data,
+      });
+    } catch (error) {
+      dispatch({
+        type: CLEAR_CATEGORY_DETAILS_FAIL,
+        payload:
+          error.response && error.response.data.message
+            ? error.response.data.message
+            : error.message,
+      });
+    }
   }
 };
 

@@ -31,7 +31,7 @@ const SubCategoriesScreen = () => {
   const { error_subcategory_add, success } = subCategoryAdd;
 
   useEffect(() => {
-    dispatch(listCategoryDetails(userInfo._id, id));
+    dispatch(listCategoryDetails(userInfo._id, id, "fetch"));
   }, [dispatch, userInfo._id, id, success]);
 
   const addSubcategoryHandler = (e) => {
@@ -66,7 +66,7 @@ const SubCategoriesScreen = () => {
 
   return (
     <>
-      {/* <Link className="back-btn btn btn-dark my-3" to="/">
+      {/* <Link className="back-btn btn btn-dark my-3" to={`/${userInfo._id}`}>
         &larr;
       </Link> */}
       {loading ? (

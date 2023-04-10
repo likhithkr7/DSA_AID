@@ -20,7 +20,7 @@ const Edit = ({ categoryId, categoryUser, subcategoryId, problem }) => {
   const { success } = editProblem;
 
   useEffect(() => {
-    dispatch(listCategoryDetails(categoryUser, categoryId));
+    dispatch(listCategoryDetails(categoryUser, categoryId, "fetch"));
   }, [dispatch, success, categoryUser, categoryId]);
 
   const editHandler = (e) => {

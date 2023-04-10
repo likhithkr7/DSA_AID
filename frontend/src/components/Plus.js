@@ -20,11 +20,11 @@ const Plus = ({ category, subcategory }) => {
   const { success_problem_add } = problemAdd;
 
   useEffect(() => {
-    dispatch(listCategoryDetails(category.user, category._id));
+    dispatch(listCategoryDetails(category.user, category._id, "fetch"));
   }, [dispatch, success_problem_add, category.user, category._id]);
 
   useEffect(() => {
-    dispatch(listCategoryDetails(category.user, category._id));
+    dispatch(listCategoryDetails(category.user, category._id, "fetch"));
   }, [dispatch, category.user, category._id]);
 
   const addProblemHandler = (e) => {

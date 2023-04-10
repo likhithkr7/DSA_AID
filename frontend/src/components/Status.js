@@ -14,7 +14,7 @@ const Status = ({ category, subcategoryId, problem }) => {
   // const { success_edit_problem_count } = editProblemCount;
 
   useEffect(() => {
-    dispatch(listCategoryDetails(category.user, category._id));
+    dispatch(listCategoryDetails(category.user, category._id, "fetch"));
   }, [dispatch, success, category.user, category._id]);
 
   // useEffect(() => {

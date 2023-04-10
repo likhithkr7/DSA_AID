@@ -15,11 +15,11 @@ const Delete = ({ category, subcategoryId, problem }) => {
   const { success_problem_delete } = problemDelete;
 
   useEffect(() => {
-    dispatch(listCategoryDetails(category.user, category._id));
+    dispatch(listCategoryDetails(category.user, category._id, "fetch"));
   }, [dispatch, success_problem_delete, category.user, category._id]);
 
   useEffect(() => {
-    dispatch(listCategoryDetails(category.user, category._id));
+    dispatch(listCategoryDetails(category.user, category._id, "fetch"));
   }, [dispatch, category.user, category._id]);
 
   const deleteProblemHandler = (e) => {

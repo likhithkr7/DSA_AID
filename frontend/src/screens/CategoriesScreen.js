@@ -46,6 +46,7 @@ const CategoriesScreen = () => {
   const { error_category_add, success } = categoryAdd;
 
   useEffect(() => {
+    // dispatch(listCategoryDetails("", "", "clear"));
     dispatch(listCategories(userInfo._id));
   }, [dispatch, userInfo._id, success]);
 

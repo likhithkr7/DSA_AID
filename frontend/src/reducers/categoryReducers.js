@@ -28,6 +28,9 @@ import {
   PROBLEM_DELETE_FAIL,
   EDIT_NOTE_REQUEST,
   EDIT_NOTE_SUCCESS,
+  CLEAR_CATEGORY_DETAILS_REQUEST,
+  CLEAR_CATEGORY_DETAILS_SUCCESS,
+  CLEAR_CATEGORY_DETAILS_FAIL,
 } from "../constants/categoryConstants";
 
 export const categoryListReducer = (state = { categories: [] }, action) => {
@@ -57,6 +60,16 @@ export const categoryDetailsReducer = (
       };
     case CATEGORY_DETAILS_FAIL:
       return { loading: false, error: action.payload };
+
+    case CLEAR_CATEGORY_DETAILS_REQUEST:
+      return { clear_loading: true, ...state };
+    case CLEAR_CATEGORY_DETAILS_SUCCESS:
+      return {
+        clear_loading: false,
+        category: action.payload,
+      };
+    case CLEAR_CATEGORY_DETAILS_FAIL:
+      return { clear_loading: false, error: action.payload };
     default:
       return state;
   }

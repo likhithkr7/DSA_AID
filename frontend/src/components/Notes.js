@@ -17,7 +17,7 @@ const Notes = ({ user, id, subcategoryId, problem, note }) => {
   const { error_edit_note, loading_edit_note, success } = editNote;
 
   useEffect(() => {
-    dispatch(listCategoryDetails(user, id));
+    dispatch(listCategoryDetails(user, id, "fetch"));
   }, [dispatch, success, user, id]);
 
   const updateNotesHandler = (e) => {
