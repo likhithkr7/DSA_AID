@@ -1,0 +1,67 @@
+main {
+  min-height: 80vh;
+}
+h3 {
+  padding: 1rem 0;
+}
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+}
+.back-btn {
+  float: right;
+}
+.table td {
+  padding: 0.8rem;
+}
+.subcategory_name {
+  padding: 1.5rem;
+}
+.form {
+  margin-top: 0.6rem;
+}
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  padding: 8px 8px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.38;
+}
+.btn-circle-small {
+  width: 20px;
+  height: 20px;
+  padding: 0px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.screen-center {
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  vertical-align: middle;
+}
+.child1 {
+  width: 80%;
+}
+.parent-button {
+  display: flex;
+}
+.child-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+.child-button-1 {
+  width: 94%;
+}
+.child-button-2 {
+  width: 6%;
+}
