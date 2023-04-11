@@ -1,7 +1,7 @@
 const categories = [
   {
     name: "Arrays",
-    image: "/images/3.jpg",
+    image: "/images/pc.jpg",
     subcategories: [
       {
         name: "Easy",
@@ -297,7 +297,7 @@ const categories = [
   // },
   {
     name: "Dynamic Programming",
-    image: "/images/4.png",
+    image: "/images/1.jpg",
     subcategories: [
       {
         name: "DP-Easy",
@@ -642,7 +642,7 @@ const categories = [
   },
   {
     name: "BLIND 75",
-    image: "/images/1.png",
+    image: "/images/3.jpg",
     subcategories: [
       {
         name: "Arrays",
@@ -1622,7 +1622,7 @@ const categories = [
   },
   {
     name: "SDE SHEET",
-    image: "/images/2.png",
+    image: "/images/2.jpg",
     subcategories: [
       {
         name: "Arrays",

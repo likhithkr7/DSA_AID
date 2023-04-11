@@ -10,10 +10,11 @@ import { addNewCategory, listCategories } from "../actions/categoryActions";
 
 const CategoriesScreen = () => {
   const IMAGES = [
-    "/images/1.png",
-    "/images/2.png",
-    "/images/4.png",
-    "/images/5.png",
+    "/images/1.jpg",
+    "/images/2.jpg",
+    "/images/3.jpg",
+    "/images/4.jpg",
+    "/images/5.jpg",
     "/images/6.jpg",
     "/images/7.jpg",
     "/images/8.jpg",
@@ -59,7 +60,7 @@ const CategoriesScreen = () => {
       handleClose();
       Alert_warn("Section Name is too long");
     } else {
-      let indx = categories.length % 7;
+      let indx = categories.length % 8;
       dispatch(addNewCategory(userInfo._id, sectionName, [], IMAGES[indx]));
       handleClose();
     }

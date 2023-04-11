@@ -65,7 +65,7 @@ const FeedbackScreen = () => {
           className="form-control"
           id="exampleTextarea"
           style={{ height: "33vh" }}
-          placeholder="Please feel free to write to us about anything you feel about this platform. Let us know how we could improve...&#10;(Developed by Likhith.R.K)"
+          placeholder="Please feel free to write to us about anything you feel about this platform. Let us know how we could improve...&#10;(Developed by Likhith.R.Krishna)"
         />
         <input
           className="btn btn-dark"
