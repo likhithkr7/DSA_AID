@@ -9,10 +9,9 @@ const Loader = () => {
       style={{
         width: "100px",
         height: "100px",
-        left: "50%",
-        position: "absolute",
-        textAlign: "center",
-        top: "50%",
+        position: "fixed",
+        top: "45%",
+        left: "45.5%",
       }}
     >
       <span className="sr-only">Loading...</span>
