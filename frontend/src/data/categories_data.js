@@ -3588,7 +3588,7 @@ const categories = [
           {
             name: "Detect A cycle in Undirected Graph using BFS",
             status: false,
-            link: "https://leetcode.com/problems/course-schedule/",
+            link: "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
             difficulty: "Medium",
             notes: {
               description: "",
@@ -3600,7 +3600,7 @@ const categories = [
           {
             name: "Detect A cycle in Undirected Graph using DFS",
             status: false,
-            link: "https://leetcode.com/problems/course-schedule/",
+            link: "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
             difficulty: "Medium",
             notes: {
               description: "",
@@ -3612,7 +3612,7 @@ const categories = [
           {
             name: "Detect A cycle in a Directed Graph using DFS",
             status: false,
-            link: "https://leetcode.com/problems/course-schedule/",
+            link: "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
             difficulty: "Medium",
             notes: {
               description: "",
@@ -3624,7 +3624,7 @@ const categories = [
           {
             name: "Detect A cycle in a Directed Graph using BFS",
             status: false,
-            link: "https://leetcode.com/problems/course-schedule/",
+            link: "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
             difficulty: "Medium",
             notes: {
               description: "",
