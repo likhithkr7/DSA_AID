@@ -3475,7 +3475,7 @@ const categories = [
           {
             name: "Binary Tree to Double Linked List",
             status: false,
-            link: "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+            link: "https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1",
             difficulty: "Medium",
             notes: {
               description: "",
